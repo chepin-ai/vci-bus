@@ -1,0 +1,5 @@
+# vci-bus 接线锚 (D-115)
+vci-bus=ci-bus的vci影子(Bus面公域极)。本锚=接线完成标记:
+1. 入mesh路由: topic=bus-transit,producer/consumer=全fleet;
+2. 锚定: beacon-mirror(fleet-drive覆盖)+x-fire-receiver(已部署);
+3. 首个mirror件: bridge/mesh/BUS-WIRE-01.json(本件)。
